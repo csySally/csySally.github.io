@@ -1,0 +1,41 @@
+/* 清除掉标签的默认样式 */
+html,body,p,h1,h2,h3,h4,h5,h6,input,
+form,table{
+    padding: 0;
+    margin: 0;
+}
+
+input,textarea,select{
+    border: 1px solid #666;
+   /* 去掉输入框的外侧的蓝圈 */
+    outline:none;
+}
+ul,ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+/* 图片下方默认有间隙问题 */
+img{
+ vertical-align: top;
+}
+b,strong,h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+em,i{
+    font-style: normal;
+}
+a,u,s,del{
+    text-decoration: none;
+}
+body{
+    /* 标签有默认行高 1 行高和高度一样 */
+    line-height: 1;
+    min-width: none;/* 版心宽度 */
+}
+/* 用到浮动，清除浮动 */
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
