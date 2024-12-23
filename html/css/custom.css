@@ -2,8 +2,9 @@
 .intro-text{
     line-height: 48px;
 }
-h1{
-    padding-bottom: 60px;
+.pb-5{
+    margin-top: 20px;
+
 }
 
 .dark-overlay::before {
@@ -15,4 +16,9 @@ h1{
     bottom: 0;
     background-color: rgba(0, 0, 0, 0.3); 
     z-index: 1; 
+  }
+
+  .aboutme{
+    padding-right: 3%;
+    font-size: 1.2em;
   }
