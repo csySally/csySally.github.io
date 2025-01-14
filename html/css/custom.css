@@ -22,3 +22,114 @@
     padding-right: 3%;
     font-size: 1.2em;
   }
+
+  .heading-2{
+    margin-bottom: 3%;
+  }
+
+.icon1{
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    opacity: 0.4;
+    height: 13vh;
+
+}
+
+.icon2{
+    position: absolute;
+    bottom: 20%;
+    right: 15%;
+    opacity: 0.4;
+    height: 9vh;
+    rotate: 23deg;
+}
+  .timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+    padding-left: 50px;
+    position: relative;
+}
+
+.timeline-1, .timeline-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+}
+
+.timeline-1>div, .timeline-2>div {
+    flex: 1;
+}
+
+
+
+.timeline-item,.timeline-time-1, .timeline-time-2 {
+    position: relative;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.timeline-time-1{
+    border-right: 2px dashed #567e4b;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.timeline-time-2{
+    border-left: 2px dashed #567e4b;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.timeline-img{
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.timeline-item .content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+    width: 80%;
+    height: 80%;
+    opacity: 1;
+}
+
+.content>h3{
+    font-size: 1.8vw;
+    line-height: 1.25;
+    font-weight: 700;
+    margin-bottom: 1.3vw;
+}
+.content>p{
+    font-size: 1.3vw;
+    line-height: 1.5;
+    margin-bottom: 1.2vw;
+}
