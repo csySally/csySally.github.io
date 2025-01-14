@@ -133,3 +133,85 @@
     line-height: 1.5;
     margin-bottom: 1.2vw;
 }
+
+.experience-section {
+    max-width: 80vw; 
+    margin: auto;
+}
+
+.experience-item {
+    height: auto;  
+    display: flex;
+    background: #fff;
+    padding: 5vh;  
+    border-radius: 1rem; 
+    box-shadow: 0 0.2rem 0.5rem rgba(0, 0, 0, 0.1);
+    margin-bottom: 3vw;
+}
+
+.company-info {
+    width: 35%; 
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.company-info h3 {
+    font-size: 3.1vh;  
+    margin-bottom: 4vh;
+    color: #333;
+    font-weight: bold;
+}
+
+.company-info img {
+    width: 100%; 
+    max-height: 30vh; 
+    border-radius: 0.3rem;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.job-details {
+    width: 65%; 
+    padding-left: 5vh; 
+}
+
+.job-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.2rem solid #ddd;
+    padding-bottom: 1rem;
+    margin-bottom: 2vh;
+}
+
+.job-title {
+    font-size: 3vh;  
+    font-weight: bold;
+    color: #333;
+}
+
+.job-time {
+    font-size: 2.5vh; 
+    color: #666;
+}
+
+.job-responsibilities {
+    list-style-type: disc;
+    padding-left: 4vh;  /* 使用vw来调整左侧的内边距 */
+    text-align: left;
+}
+
+.job-location {
+    font-size: 2.5vh;  /* 字体大小根据视口宽度调整 */
+    color: #666;
+}
+
+.job-responsibilities li {
+    margin-bottom: 0.6rem;  /* 使用rem来调整行间距 */
+    font-size: 2.3vh;  /* 字体大小根据视口宽度调整 */
+    color: #444;
+}
