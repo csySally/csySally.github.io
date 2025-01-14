@@ -201,17 +201,16 @@
 
 .job-responsibilities {
     list-style-type: disc;
-    padding-left: 4vh;  /* 使用vw来调整左侧的内边距 */
-    text-align: left;
+    padding-left: 4vh; 
 }
 
 .job-location {
-    font-size: 2.5vh;  /* 字体大小根据视口宽度调整 */
+    font-size: 2.5vh; 
     color: #666;
 }
 
 .job-responsibilities li {
-    margin-bottom: 0.6rem;  /* 使用rem来调整行间距 */
-    font-size: 2.3vh;  /* 字体大小根据视口宽度调整 */
+    margin-bottom: 0.6rem; 
+    font-size: 2.3vh;  
     color: #444;
 }
