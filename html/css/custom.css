@@ -215,3 +215,8 @@
     font-size: 2.3vh;  
     color: #444;
 }
+
+.project-swiper img{
+    height:30vh;
+    object-fit: cover;
+}
