@@ -82,9 +82,10 @@
               <a class="nav-link text-uppercase" href="#work">My Work</a>
             </li>
 
+            -->
             <li class="nav-item">
               <a class="nav-link text-uppercase" href="#contact">Contact</a>
-            </li> -->
+            </li>
           </ul>
         </div>
       </div>
@@ -1467,17 +1468,18 @@
     <!-- /- END REFERENCES SECTION -->
 
     <!-- CONTACT SECTION -->
-    <!--     <section id="contact">
+    <section id="contact">
       <div class="container wow bounceIn">
         <header class="text-center mb-5">
           <h2 class="heading">Contact me</h2>
         </header>
         <div class="row">
           <div class="col-lg-7 mx-auto">
-            <form>
+            <form id="contactForm">
               <div class="row gy-3">
                 <div class="col-lg-6">
                   <input
+                    id="firstname"
                     class="form-control"
                     type="text"
                     name="firstname"
@@ -1487,6 +1489,7 @@
                 </div>
                 <div class="col-lg-6">
                   <input
+                    id="lastname"
                     class="form-control"
                     type="text"
                     name="lastname"
@@ -1496,15 +1499,19 @@
                 </div>
                 <div class="col-lg-12">
                   <textarea
+                    id="message"
                     class="form-control"
                     name="message"
                     rows="7"
-                    placeholder="message for me *"
-                  >
-                  </textarea>
+                    placeholder="Message for me *"
+                  ></textarea>
                 </div>
                 <div class="col-12 text-center">
-                  <button class="btn btn-outline-primary" type="submit">
+                  <button
+                    class="btn btn-outline-primary"
+                    type="button"
+                    onclick="sendEmail()"
+                  >
                     Send message
                   </button>
                 </div>
@@ -1513,7 +1520,7 @@
           </div>
         </div>
       </div>
-    </section> -->
+    </section>
     <!-- /- END CONTACT SECTION -->
     <!-- MAP SECTION-->
     <!--     <div id="map">
