@@ -226,7 +226,19 @@
 }
 
 
+
+
+.img-fluid{
+    object-fit: cover;
+    height: 100%;
+    border: #567e4b 0.6px dotted;
+}
 .project-swiper img{
+    width: auto;
     height:30vh;
     object-fit: cover;
+}
+
+#content a {
+    height: 100%;
 }
