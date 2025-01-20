@@ -225,7 +225,16 @@
     color: #202328;
 }
 
-
+.overlay p {
+    max-height: 70%;
+    overflow-y: auto; 
+    text-overflow: ellipsis; 
+  }
+  
+.overlay>h3{
+    font-size: 3.5vh;
+    margin-bottom: 1.5vh;
+}
 
 
 .img-fluid{
