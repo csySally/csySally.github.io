@@ -224,3 +224,34 @@
     background: white;
     color: #202328;
 }
+
+
+
+.overlay p {
+    max-height: 70%;
+    overflow-y: auto; 
+    text-overflow: ellipsis; 
+    padding: 0.7rem;
+  }
+  
+.overlay>h3{
+    font-size: 3.5vh;
+    margin-bottom: 1vh;
+    padding: 0.5rem;
+}
+
+
+.img-fluid{
+    object-fit: cover;
+    height: 100%;
+    border: #567e4b 0.6px dotted;
+}
+.project-swiper img{
+    width: auto;
+    height:30vh;
+    object-fit: cover;
+}
+
+#content a {
+    height: 100%;
+}
